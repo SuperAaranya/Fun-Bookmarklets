@@ -1,0 +1,1 @@
+javascript:(function(){   let rainbow = ['red','orange','yellow','green','blue','purple','pink'];   let i = 0;   document.querySelectorAll('*').forEach(el => {     if(el.childNodes.length === 1 && el.childNodes[0].nodeType === 3){       el.style.color = rainbow[i % rainbow.length];       i++;     }   }); })();
