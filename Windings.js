@@ -1,0 +1,1 @@
+javascript:(function(){   const style = document.createElement('style');   style.id = 'wingdings-font-style';   style.innerHTML = `* { font-family: 'Wingdings', 'Wingdings 2', 'Wingdings 3', cursive !important; }`;   document.head.appendChild(style); })();
